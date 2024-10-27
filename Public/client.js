@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const socket = io();
+    const socket = io("https://funchat-pp3a.onrender.com"); // Replace with your Render URL
+
     const form = document.getElementById("form");
     const input = document.getElementById("input");
     const messages = document.getElementById("messages");
